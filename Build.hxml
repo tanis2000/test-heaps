@@ -1,0 +1,14 @@
+-cp src
+-main Main
+-lib heaps
+-lib hlsdl
+-hl bin/main.hl
+
+--next
+
+-cp src
+-main Main
+-lib heaps
+-lib lime
+-cpp bin/main
+
