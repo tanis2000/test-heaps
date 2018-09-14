@@ -4,11 +4,12 @@
 -lib hlsdl
 -hl bin/main.hl
 
---next
-
--cp src
--main Main
--lib heaps
--lib lime
--cpp bin/main
+#--next
+#
+#-cp src
+#-main Main
+#-lib heaps
+#-lib lime
+#-D lime
+#-cpp bin/main
 
