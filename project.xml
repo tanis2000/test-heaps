@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="TestHeaps" package="it.altralogica.testheaps" version="1.0.0" company="Company Name" />
+	<app main="Main" path="export" file="TestHeaps" />
+
+	<source path="src" />
+
+	<haxelib name="lime" />
+	<haxelib name="heaps" />
+
+	<assets path="assets" rename="assets" />
+
+</project>

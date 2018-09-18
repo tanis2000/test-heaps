@@ -3,4 +3,6 @@
 -lib heaps
 -lib lime
 -cpp bin/main
+-D resourcesPath=assets
+-debug
 
