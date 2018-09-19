@@ -2,6 +2,7 @@
 -main Main
 -lib heaps
 -lib lime
+-lib hxcpp-debug-server
 -cpp bin/main
 -D resourcesPath=assets
 -debug

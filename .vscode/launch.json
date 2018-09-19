@@ -16,7 +16,7 @@
             "name": "hxcpp-Debug",
             "type": "hxcpp",
             "request": "launch",
-            "stopOnEntry": true
+            "program": "${workspaceRoot}/bin/main/Main-debug"
         }
     ]
 }
