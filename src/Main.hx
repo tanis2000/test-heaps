@@ -24,8 +24,9 @@ class Main extends hxd.App {
         trace('Main update');
         engine.backgroundColor = 0x404040;
         g.clear();
-        /*
+        
         bmp.rotation += 0.1;
+        /*
         if (bmp.getBounds().intersects(bmp2.getBounds())) {
             var b = bmp.getBounds();
             g.beginFill(0xFFFFFF, 0.5);
