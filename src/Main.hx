@@ -2,6 +2,8 @@ class Main extends hxd.App {
     var g:h2d.Graphics;
     var bmp:h2d.Bitmap;
     var bmp2:h2d.Bitmap;
+    var fps:h2d.Text;
+    var defaultFont: h2d.Font;
 
     override function init() {
         trace('Main init');
@@ -16,6 +18,11 @@ class Main extends hxd.App {
         bmp2 = new h2d.Bitmap(tile2, s2d);
         bmp2.x = s2d.width * 0.5 - 150;
         bmp2.y = s2d.height * 0.5;
+
+        defaultFont = hxd.Res.customFont.toFont();
+        fps = new h2d.Text(defaultFont, s2d);
+        fps.x = 0;
+        fps.y = 20;
     }
 
     override function update(dt:Float) {
@@ -29,10 +36,16 @@ class Main extends hxd.App {
             g.beginFill(0xFFFFFF, 0.5);
             g.drawRect(b.x, b.y, b.width, b.height);
         }
+
+        fps.text = "" + engine.fps;
     }
 
     static function main() {
-        //hxd.Res.initEmbed();
+        #if lime
+        hxd.Res.initLocal();
+        #else
+        hxd.Res.initEmbed();
+        #end
         trace("pre-instance");
         new Main();
         trace("post-instance");

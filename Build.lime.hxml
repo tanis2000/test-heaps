@@ -4,7 +4,7 @@
 -lib lime
 -lib hxcpp-debug-server
 -cpp bin/main
--D resourcesPath=assets
+-D resourcesPath=res
 -D shader_debug_dump
 -debug
 
