@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 
-	<meta title="TestHeaps" package="it.altralogica.testheaps" version="1.0.0" company="Company Name" />
+	<meta title="TestHeaps" package="it.altralogica.testheaps" version="1.0.0" company="Altralogica s.r.l." />
 	<app main="Main" path="export" file="TestHeaps" />
 
 	<source path="src" />
 
 	<haxelib name="lime" />
 	<haxelib name="heaps" />
+	<haxelib name="hxcpp-debug-server" />
 
-	<assets path="assets" rename="assets" />
+	<assets path="res" rename="res" />
 
 </project>

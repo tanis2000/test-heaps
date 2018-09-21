@@ -1,0 +1,12 @@
+-cp src
+-main Main
+-lib heaps
+-lib lime
+-lib hxcpp-debug-server
+-cpp bin/ios/main
+-D resourcesPath=res
+-D shader_debug_dump
+-D ios
+-D iphone
+-debug
+
