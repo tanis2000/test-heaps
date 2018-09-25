@@ -4,6 +4,15 @@
 -lib hlsdl
 -hl bin/main.hl
 
+--next
+
+-cp src
+-main Main
+-lib heaps
+-lib hlsdl
+-lib hashlink
+-hl bin/main.c
+
 #--next
 #
 #-cp src
